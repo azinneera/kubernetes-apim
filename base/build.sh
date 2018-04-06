@@ -39,7 +39,7 @@ function docker_build() {
     fi
 }
 
-docker_build docker.wso2.com/wso2am-kubernetes:2.1.0 $apim_dir
-docker_build docker.wso2.com/wso2am-analytics-kubernetes:2.1.0 $analytics_dir
-docker_build docker.wso2.com/apim-rdbms-kubernetes:2.1.0 $mysql_dir
-docker_build docker.wso2.com/wso2apim-is-as-km-kubernetes:5.3.0 $is_as_km_prepacked_dir
+docker_build docker.cloud.wso2.com/wso2am-kubernetes:2.1.0 $apim_dir
+docker_build docker.cloud.wso2.com/wso2am-analytics-kubernetes:2.1.0 $analytics_dir
+docker_build docker.cloud.wso2.com/apim-rdbms-kubernetes:2.1.0 $mysql_dir
+docker_build docker.cloud.wso2.com/wso2apim-is-as-km-kubernetes:5.3.0 $is_as_km_prepacked_dir

@@ -12,13 +12,13 @@ git clone https://github.com/wso2/kubernetes-apim.git
 git checkout tags/v2.1.0-2
 ```
 
-##### 2. Pull required Docker images from [`WSO2 Docker Registry`](https://docker.wso2.com) using `docker pull`:
+##### 2. Pull required Docker images from [`WSO2 Docker Registry`](https://docker.cloud.wso2.com) using `docker pull`:
 ```
-docker login docker.wso2.com
+docker login docker.cloud.wso2.com
 
-docker pull docker.wso2.com/wso2am-analytics-kubernetes:2.1.0
-docker pull docker.wso2.com/wso2am-kubernetes:2.1.0
-docker pull docker.wso2.com/apim-rdbms-kubernetes:2.1.0
+docker pull docker.cloud.wso2.com/wso2am-analytics-kubernetes:2.1.0
+docker pull docker.cloud.wso2.com/wso2am-kubernetes:2.1.0
+docker pull docker.cloud.wso2.com/apim-rdbms-kubernetes:2.1.0
 ```
 
 > You can also build the docker images by following the guide in `KUBERNETES_HOME/base/README.md`. Same images can be used for Openshift.
